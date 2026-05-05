@@ -87,11 +87,11 @@ p{
 
 header{
     display: flex;
-    height: 6em;
+    height: 5em;
     justify-content: space-between;
     width: min(99%, 1500px);
-    padding: 1em 2em;
-   
+    padding: 2em 0;
+    
     margin-inline: auto;
 
     background-color: white;
@@ -103,10 +103,10 @@ header{
     ul{
       display: flex;
       justify-content: space-between;
-      gap: 1em;
+      gap: .8em;
       list-style-type: none;
         li{
-          font-size: clamp(1.5rem, 4vw, 2.5rem);
+          font-size: clamp(1.3rem, 4vw, 2.5rem);
         }
     }
 
@@ -135,13 +135,13 @@ img{
     padding: 2em 0;
     text-align: center;
       h1{
-        font-size: clamp(2.5rem, 4vw, 4.5vw);
+        font-size: clamp(2.5rem, 4vw, 4vw);
         
         
     }
  
     p{
-        font-size: clamp( 1.5rem, 4vw, 2.5rem);
+        font-size: clamp( 1.5rem, 4vw, 3.5rem);
         width: 80%;
         margin-inline: auto;
     }
@@ -155,22 +155,8 @@ img{
 
     background-color: rgb(187, 6, 6);
     color: white;
-    position: relative;
-    h2{
-        font-size: clamp(2.5rem, 4vw, 4rem);
-        border-bottom: 2px solid black;
-        
 
-        position: absolute;
-  top: 200px;
-  left: 20px;
-      z-index: 1;
-   
-      padding: .5em;
-        color: white;
-        border: 2px solid rgb(255, 255, 255);
-      
-    }
+
     p{
         font-size: clamp(1.3rem, 4vw, 2rem);
         line-height: 1.1;
@@ -183,9 +169,28 @@ img{
         
     }
        img{
-      position: relative;
       height: 100%;
       object-fit: cover;
+    }
+}
+
+.img-container{
+  position: relative;
+  
+
+      h2{
+        font-size: clamp(2.5rem, 4vw, 4rem);
+        border-bottom: 2px solid black;
+        position: absolute;
+        z-index: 1;
+        top: 40%;
+        left: 10%;
+
+   
+      padding: .5em;
+        color: white;
+        border: 2px solid rgb(255, 255, 255);
+      
     }
 }
 
@@ -194,7 +199,6 @@ img{
   margin-inline: auto;
   min-height: 95vh;
   padding: 2em 0;
-  margin-top: 2em;
   
   h5{
     font-size: clamp(2rem, 4vw, 4rem);
@@ -272,7 +276,7 @@ img{
   
   }
   p{
-    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-size: clamp(1rem, 4vw, 2rem);
     line-height: 1;
   }
   .endereco{
@@ -302,13 +306,4 @@ footer h6{
     margin-inline: auto;
     font-size: clamp(2.5rem, 6vw, 8rem);
   
-}
-.atix{
-  height: 90vh;
- 
-  border: 2px solid black;
-    width: 90%;
-    margin: 1em ;
-     margin-inline: auto;
-   
 }
