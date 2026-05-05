@@ -89,7 +89,7 @@ header{
     display: flex;
     height: 5em;
     justify-content: space-between;
-   
+    width: min(90%, 1500px);
     padding: 1em 2em;
    
     margin-inline: auto;
