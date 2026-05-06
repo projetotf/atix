@@ -91,7 +91,7 @@ header{
     gap: 1em;
     justify-content: space-between;
     width: min(90%, 1500px);
-    padding: 2em 0;
+
     
     margin-inline: auto;
 
@@ -281,7 +281,7 @@ img{
   
   }
   p{
-    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-size: clamp(1.2rem, 4vw, 1.6rem);
     line-height: 1;
   }
   .endereco{
@@ -311,13 +311,4 @@ footer h6{
     margin-inline: auto;
     font-size: clamp(2.5rem, 6vw, 8rem);
   
-}
-.atix{
-  height: 90vh;
- 
-  border: 2px solid black;
-    width: 90%;
-    margin: 1em ;
-     margin-inline: auto;
-   
 }
